@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lecture Assignment 4</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html" target="_self">Home</a></li>
+                <li><a href="tables.html" target="_self">Tables</a></li>
+                <li><a href="forms.html" target="_self">Forms</a></li>
+                <li><a href="media.html" target="_self">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="audiosample">
+            <!--heading for the audio section-->
+            <h2>audio with controls</h2>
+
+            <!--the 'controls' attribute adds audio controls, like play, pause, and volume-->
+            <audio controls>
+                <!--source for the audio file-->
+                <!--the 'src' attribute specifies the path to the audio file-->
+                <source src="media/welcome.mp3" type="audio/mp3">
+                <!--fallback content in case the audio isn't supported-->
+                Your browser does not support the audio element
+            </audio>
+        </section>
+        <!--end of audio section-->
+    </main>
+    <footer></footer>
     
 </body>
 </html>
